@@ -1,0 +1,29 @@
+# Secrets & env
+.env
+.env.local
+.env.*.local
+
+# Database (custodial keys live here — NEVER commit)
+*.db
+*.db-journal
+dev.db*
+prisma/dev.db*
+prisma/*.db*
+
+# Node
+node_modules/
+dist/
+*.log
+npm-debug.log*
+
+# Keys / wallets
+*.key
+*.pem
+wallets/
+keypairs/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
